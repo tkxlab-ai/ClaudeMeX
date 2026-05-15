@@ -1,0 +1,22 @@
+# Golden manifest for MAX
+# Generated: 2026-04-30 22:49:33 CST
+# Source:  outputs/TKCC-CONF-MAX-20260420/
+# Format:  <sha256>  <lines>  <relative_path>
+
+a8ffb6bae2c461a787ca49af3d54379153120094d84585332da201377ef98beb  1094  TKCC-CONF-MAX-20260420/CLAUDE.md
+c84d6e1e0fcc9df2088979003655d3488816df3819ff37ebbbc63afc627aea45  94  TKCC-CONF-MAX-20260420/INDEX.md
+cfd1884b651fb788e2b3574293cc0ee4ac652e1ae7aff5b4e6285810b5e4da46  133  TKCC-CONF-MAX-20260420/REPORT.md
+6725a37f049e2516b5ae2b66f0c82204e902606e146c87a7364b915e70ee41fa  96  TKCC-CONF-MAX-20260420/rules/01-identity.md
+920cc4d80eff4c9107749c43ef09da76a525df38c84375113bce594d1b818f87  153  TKCC-CONF-MAX-20260420/rules/02-execution.md
+e957a6cf1649b81e0dba0cb6f612420046d66fc7a50e8bea5ec67b9f02c94c0c  116  TKCC-CONF-MAX-20260420/rules/03-quality.md
+24b6e56c9b5f992b8e73ab089ab824caad378e877753867623d59b06827273f8  134  TKCC-CONF-MAX-20260420/rules/04-decision.md
+9e723e4fde51be2ef993c7310481358c046fc2991993e85de39a55931557a313  115  TKCC-CONF-MAX-20260420/rules/05-file-safety.md
+4146e75e7b8f54710c4cff7de7bdbbec69dde4194a5f4fb92de5e94442ee04d8  135  TKCC-CONF-MAX-20260420/rules/06-security.md
+c77fb93d0eacfc3adf895c10bcee639cd8e0137487d7f9b7f2785fedd18d33db  181  TKCC-CONF-MAX-20260420/rules/07-memory.md
+e9bec63ec6b88a9d6ee1185a78eee223b266e2fd3dcccb3ba80af570d0c0c9ad  198  TKCC-CONF-MAX-20260420/rules/08-coding.md
+79529c8c1f991a652076f50c41935eb541c54f1033f590599ff0b02867fe4703  150  TKCC-CONF-MAX-20260420/rules/09-anti-patterns.md
+0dcdd69c6b0bd3163fcc539d0735a1e35e1296e71f2c3020e0604b10ca711b4a  158  TKCC-CONF-MAX-20260420/rules/10-plugins-skills.md
+# Per-machine project rules (rules/11+) intentionally omitted from the public
+# golden — their filenames encode user-specific project codenames and would
+# leak via the public repo. Run with --update to regenerate locally if needed.
+be035b4753fa80579e6e6b9817730a0d85f21091f0450a859d854822d38dd1d6  122  TKCC-CONF-MAX-20260420/session-inventory.md

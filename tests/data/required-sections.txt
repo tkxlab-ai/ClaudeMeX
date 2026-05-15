@@ -1,0 +1,49 @@
+# Required sections for each TKCC tier CLAUDE.md
+# Format: TIER|section_name|grep_pattern
+# A section PASSES if grep finds the pattern in that tier's CLAUDE.md.
+
+# ── MIN: 底线契约 ──
+MIN|Linus三问|Linus 三问
+MIN|Karpathy|Karpathy
+MIN|Tacit|Tacit
+MIN|修改后必检|修改后必检
+MIN|安全红线|密钥红线
+MIN|执行协议|Karpathy#4
+MIN|代码规范|Karpathy#2
+MIN|反模式|反模式
+MIN|规则索引|规则索引
+
+# ── COMMON: 通用战略 ──
+COMMON|Linus三问|Linus 三问
+COMMON|Karpathy|Karpathy
+COMMON|Tacit|Tacit
+COMMON|修改后必检|修改后必检
+COMMON|安全原则|安全原则
+COMMON|执行纪律|执行纪律
+COMMON|编码哲学|编码哲学
+COMMON|反模式|反模式
+COMMON|规则索引|规则索引
+
+# ── MAX: 本机全量 ──
+MAX|Linus三问|Linus 三问
+MAX|Karpathy|Karpathy
+MAX|Tacit|Tacit
+MAX|修改后必检|修改后必检
+MAX|安全红线|安全红线
+MAX|执行协议|执行协议
+MAX|代码规范|代码规范
+MAX|反模式|反模式
+MAX|项目全景|项目全景
+MAX|基础设施|基础设施与环境
+MAX|工具链|工具链配置
+
+# ── Cross-tier: MIN rule topics → COMMON rule topics ──
+# Format: XMAP|min_rule_keyword|common_rule_keyword
+XMAP|identity|identity
+XMAP|decision|decision
+XMAP|execution|execution
+XMAP|coding|coding
+XMAP|memory|memory
+XMAP|anti-patterns|anti-patterns
+# MIN safety → COMMON file-safety (合3为1 → 拆回)
+# 04-safety ↔ 05-file-safety + 06-security + 10-plugins-skills

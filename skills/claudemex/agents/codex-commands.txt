@@ -1,0 +1,46 @@
+$claudemex
+$generate
+$merge
+$apply
+$export
+$import
+$merge-report
+# codex-commands.txt — Codex CLI selector manifest for the claudemex skill.
+#
+# One trigger per line. Plain text, comments start with '#'. The Codex
+# selector loads this file and matches user input against each line as a
+# substring trigger; first match wins.
+#
+# These triggers should activate ClaudeMeX (open the generator prompt
+# and walk the user through generating a per-machine CLAUDE.md).
+
+# English triggers
+generate CLAUDE.md
+generate claude.md
+set up Claude Code config
+configure Claude Code
+new machine claude config
+fresh laptop claude
+make a CLAUDE.md
+build a CLAUDE.md
+
+# Chinese triggers
+做一份 CLAUDE.md
+生成 CLAUDE.md
+配置 Claude Code
+新机器配 Claude Code
+为这台机器配 Claude Code
+
+# Patch / refresh triggers
+refresh CLAUDE.md
+patch CLAUDE.md
+update CLAUDE.md drift
+两周回归更新
+
+# Tier-specific triggers
+generate MIN tier
+generate COMMON tier
+generate MAX tier
+MIN baseline
+upgrade to COMMON
+upgrade to MAX

@@ -1,0 +1,13 @@
+{
+  "skill_name": "claudemex",
+  "evals": [
+    {"id": 1, "prompt": "扫一下我这台机器 4 个 CLI 的使用习惯，更新一下 MAX tier 的 CLAUDE.md", "should_trigger": true, "expected_output": "Skill triggers; runs Step 0 multi-CLI inventory; emits outputs/<host>-YYYYMMDD/", "files": []},
+    {"id": 2, "prompt": "compress my Codex sessions into behavior signals — same way you do for Claude", "should_trigger": true, "expected_output": "Skill triggers; behavior-scan-codex.sh produces behavior-raw/codex.jsonl", "files": []},
+    {"id": 3, "prompt": "refresh CLAUDE.md based on the last two weeks of my CLI activity across all four tools", "should_trigger": true, "expected_output": "Skill triggers; patch mode runs against existing CLAUDE.md", "files": []},
+    {"id": 4, "prompt": "merge the outputs/ from my MBP and my desktop into one kernel and deploy to ~/.claude/", "should_trigger": true, "expected_output": "Skill triggers; merge.sh + apply.sh path", "files": []},
+    {"id": 5, "prompt": "format my existing CLAUDE.md file — fix the markdown indentation and convert tabs to spaces", "should_trigger": false, "expected_output": "Plain prettier/editor task; not skill scope", "files": []},
+    {"id": 6, "prompt": "why did Codex silently truncate my AGENTS.md at 32 KiB? help me debug", "should_trigger": false, "expected_output": "Debug/Q&A on Codex internals; skill does not own this", "files": []},
+    {"id": 7, "prompt": "write me a python script that parses ~/.codex/sessions/ jsonl files", "should_trigger": false, "expected_output": "Code-gen request; skill is bash + non-Python by repo convention", "files": []},
+    {"id": 8, "prompt": "ok so I just installed claude code on a fresh laptop and want to set up the same config I have on my main machine, the 4-CLI behavioral one", "should_trigger": true, "expected_output": "Skill triggers; cross-machine bootstrap path", "files": []}
+  ]
+}
